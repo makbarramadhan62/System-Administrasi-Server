@@ -6,15 +6,17 @@
 
 - Download windows server 2022 ISO file from https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022.
 
-- In this case, we will use VirtualBox to installing the windows server 2022. You can download VirtualBox from https://www.virtualbox.org/wiki/Downloads. 
+- In this case, i will use VirtualBox to installing the windows server 2022. You can download VirtualBox from https://www.virtualbox.org/wiki/Downloads. 
 
-- Open the VirtualBox, and click on the **new** button to create a new virtual machine. Give some **name** to your VM, here we are installing the server version so i named it "windows server". Select **Microsoft Windows** as OS type and **other Windows (64-bit)** as version.
+- Open the VirtualBox, and click on the **new** button to create a new virtual machine. Give some **name** to your VM, now we are installing the server version so i named it "windows server". Select **Microsoft Windows** as OS type and **other Windows (64-bit)** as version.
 
   <img src="aset foto/1vb_2.png" alt="1vb_2"/>
 
-- In this case, i will assigned RAM as big as 8 GB because i will use the Desktop GUI. After that, i will create a Virtual Hard disk and choose **VHD** for the file Type. Select the **Dynamic Allocated** and stipulating 50 GB for the hard disk size. 
+- In this case, I will assigned RAM as big as 8 GB because i will use the Desktop GUI. After that, create a Virtual Hard disk and choose **VHD** for the file Type. Select the **Dynamic Allocated** and stipulating 50 GB for the hard disk size. 
 
-- Select the created **VM** from the left panel of VirtualBox and click on the **Start** button given in the Mene. After that, add the ISO file of windows server 2022 by select the folder icon to open the file explorer window of your respective OS and choose it. Finally, hit **start** button to move forward for the installation of windows server 2022. 
+- Select created **VM** from the left panel of VirtualBox and click on the **Start** button. 
+
+- Add the ISO file of windows server 2022 by select the folder icon to open the file explorer window of your respective OS and choose it. Finally, hit **start** button to move forward for the installation of windows server 2022. 
 
   <img src="aset foto/1vb_5.png" alt="1vb_5"/>
 
