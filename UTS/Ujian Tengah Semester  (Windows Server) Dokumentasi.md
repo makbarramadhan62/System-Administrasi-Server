@@ -124,7 +124,7 @@ We can also check it in tools at menu bar, and there is sub menu DNS in dropdown
 
 If the DNS Server is not already installed in your case, you can install it with same step like installing active directory. You just need to select **DNS Server** in the tab **server roles**. To make sure the DNS is installed properly, i will make some configuration.
 
-- Open the DNS, and you will see the DNS manager window.
+- Open the **DNS** in the **tools**, and you will see the **DNS manager window**.
 
 - Now we can go to the **forward lookup zones** folder then go to the **vm.local** folder. Right click in  **vm.local** folder and select **new host(A or AAA)...** to create a new host.
 
