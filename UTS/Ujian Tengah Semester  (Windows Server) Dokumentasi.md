@@ -10,9 +10,7 @@
 
 - Open the VirtualBox, and click on the **new** button to create a new virtual machine. Give some **name** to your VM, here we are installing the server version so i named it "windows server". Select **Microsoft Windows** as OS type and **other Windows (64-bit)** as version.
 
-  ![1vb_2](aset foto/1vb_2.png)
-
-  ![1vb_2](aset foto/1vb_2.png)
+  <img src="aset foto/1vb_2.png" alt="1vb_2"/>
 
 - In this case, i will assigned RAM as big as 8 GB because i will use the Desktop GUI. After that, i will create a Virtual Hard disk and choose **VHD** for the file Type. Select the **Dynamic Allocated** and stipulating 50 GB for the hard disk size. 
 
