@@ -20,7 +20,7 @@
 
 - For the first installation setup, we need to enter our preferences. After that, click next to continue the setup and click install to start the installation process.
 
-  <img src="D:/Arsip Kuliah/KULIAH/SEMESTER 5/Sistem Administrasi Server/UTS/dokumentasi/aset foto/2wsins_1.png" alt="2wsins_1"  />
+  <img src="aset foto/2wsins_1.png" alt="2wsins_1"  />
 
 - In this case i will choose the **standard evaluation (desktop experience)**, because i will manage this server with Graphical User Interface(GUI). After choose the operating system, click next to continue the installation process.
 
