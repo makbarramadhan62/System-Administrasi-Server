@@ -16,6 +16,8 @@
 
 - Select the created **VM** from the left panel of VirtualBox and click on the **Start** button given in the Mene. After that, add the ISO file of windows server 2022 by select the folder icon to open the file explorer window of your respective OS and choose it. Finally, hit **start** button to move forward for the installation of windows server 2022. 
 
+  <img src="aset foto/1vb_3.png" alt="1vb_3"/>
+
   ![1vb_5](aset foto/1vb_5.png)
 
 - For the first installation setup, we need to enter our preferences. After that, click next to continue the setup and click install to start the installation process.
