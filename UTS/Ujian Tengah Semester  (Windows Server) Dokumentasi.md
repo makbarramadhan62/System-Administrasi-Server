@@ -166,7 +166,7 @@ If the DNS Server is not already installed in your case, you can install it with
 
 - open the **server manager** and click to **add roles and features**.
 
-- After that, click next next every tab until tab server roles because **NET Framework 3.5** installer is in the tab features.
+- After that, click next next every tab until **server roles** tab, because **NET Framework 3.5** installer is in the tab features.
 
 - In **Features Tab**, we need to select **NET Framework 3.5 features** by hit the check box then click next.
 
