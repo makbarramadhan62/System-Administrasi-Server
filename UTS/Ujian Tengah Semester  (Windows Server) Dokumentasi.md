@@ -128,7 +128,7 @@ We can also check it in tools at menu bar, and there is sub menu DNS in dropdown
 
 <img src="aset foto/8confDNS_1.png" alt="8confDNS_1"/>
 
-If the DNS Server is not already installed in your case, you can install it with same step like installing active directory. You just need to select **DNS Server** in the tab **server roles**. To make sure the DNS is installed properly, i will make some configuration.
+If the DNS Server is not already installed in your case, you can install it with select **DNS server** and continue it same step like installing active directory. To make sure the DNS is installed properly, i will make some configuration to check it.
 
 - Open the **DNS** in the **tools**, and you will see the **DNS manager** window.
 
