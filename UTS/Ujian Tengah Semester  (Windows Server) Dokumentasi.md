@@ -62,7 +62,11 @@
 
 - After entering the wizard, you can just click next for tab **before you begin**, and select **role-based on feature-based installation** on the tab **installation type**. 
 
-- In the tab **server selection** select **select a server from the server pool** then click next.  
+   <img src="aset foto/4insAD_3.png" alt="4insAD_3"/>
+
+- In the tab **server selection** select **select a server from the server pool** then click next. 
+
+   <img src="aset foto/4insAD_4.png" alt="4insAD_4"/>
 
 - In the tab **server roles** we need to select roles **active directory domain services** by click the check box, and the pop up window will come out and click **add features**.
 
