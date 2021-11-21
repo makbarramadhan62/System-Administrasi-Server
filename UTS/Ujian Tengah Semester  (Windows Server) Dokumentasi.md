@@ -8,7 +8,9 @@
 
 - In this case, we will use VirtualBox to installing the windows server 2022. You can download VirtualBox from https://www.virtualbox.org/wiki/Downloads. 
 
-- Open the VirtualBox, and click on the **new** button to create a new virtual machine. Give some **name** to your VM, here we are installing the server version so i named it "windows server". Select **Microsoft Windows** as OS type and **other Windows (64-bit)** as version
+- Open the VirtualBox, and click on the **new** button to create a new virtual machine. Give some **name** to your VM, here we are installing the server version so i named it "windows server". Select **Microsoft Windows** as OS type and **other Windows (64-bit)** as version.
+
+  ![1vb_2](aset foto/1vb_2.png)
 
   ![1vb_2](aset foto/1vb_2.png)
 
@@ -20,7 +22,7 @@
 
 - For the first installation setup, we need to enter our preferences. After that, click next to continue the setup and click install to start the installation process.
 
-  <img src="aset foto/2wsins_1.png" alt="2wsins_1"  />
+  <img src="aset foto/2wsins_1.png" alt="2wsins_1"/>
 
 - In this case i will choose the **standard evaluation (desktop experience)**, because i will manage this server with Graphical User Interface(GUI). After choose the operating system, click next to continue the installation process.
 
