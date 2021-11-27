@@ -1,4 +1,4 @@
-# Ujian Tengah Semester  (Windows Server)
+# Midterm Exam (Windows Server)
 
 ##### **By Muhammad Akbar Ramadhan [1202190019] [IT-02-02]**
 
