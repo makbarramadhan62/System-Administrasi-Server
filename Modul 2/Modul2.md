@@ -12,7 +12,7 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
 
   - We can check the version of ubuntu by entering the LXC with `sudo lxc-attach -n ubuntu_landing` and type `lsb_release -a` to check the version of ubuntu.
 
-    ![Laravel1](/assets/Laravel1.PNG)
+    ![Laravel1](assets/Laravel1.PNG)
 
   - Because, we re-install the LXC of ubuntu_landing, then we need to do some configuration on ubuntu_landing. We can type `apt update; apt upgrade -y; apt install -y nano` to update and upgrade the ubuntu by **sources.list**. After that, we can set the **ip** from **dhcp** to static with same **ip** before we re-install this LXC by typing `nano /etc/netplan/10-lxc.yaml`. Save it, and type `netplan apply` to apply all the configurations we made.
 
@@ -31,7 +31,7 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
 
   - First, we need to entering the modul2-ansible directory by typing `cd ~/ansible/modul2-ansible` and create **install-laravel.yml** file by typing `nano install-laravel.yml`.  In the **install-laravel.yml** file, we can type some configurations like this.
 
-    ![Laravel2](/assets/Laravel2.PNG)
+    ![Laravel2](assets/Laravel2.PNG)
 
   - As we can see in the **install-laravel.yml** configurations, the roles consist of 2 parts, namely **php** and **lv**  .
 
@@ -685,11 +685,11 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
 
   - Finally, after we created all configuration script of **Laravel** we can start to run the **Ansible** to make sure all script that we made was run properly with command `ansible-playbook -i hosts install-laravel.yml -k`.
 
-    ![wp_laravel](/assets/wp_laravel.PNG)
+    ![wp_laravel](assets/wp_laravel.PNG)
 
   - After the **Ansible** run properly, we can check in the browser by typing our domain which is `vm.local` to check **Laravel** was installed properly.
 
-    ![laravel](/assets/laravel.PNG)
+    ![laravel](assets/laravel.PNG)
 
 - **WordPress**
 
@@ -697,7 +697,7 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
   
   - We can check the version of ubuntu by entering the LXC with `sudo lxc-attach -n ubuntu_php7.4` and type `lsb_release -a` to check the version of ubuntu.
   
-    ![wordpress1](/assets/wordpress1.PNG)
+    ![wordpress1](assets/wordpress1.PNG)
   
   - Because, we re-install the LXC of ubuntu_php7.4, then we need to do some configuration on ubuntu_php7.4. We can type `apt update; apt upgrade -y; apt install -y nano` to update and upgrade the ubuntu by **sources.list**. After that, we can set the **ip** from **dhcp** to static with same **ip** before we re-install this LXC by typing `nano /etc/netplan/10-lxc.yaml`. Save it, and type `netplan apply` to apply all the configurations we made.
   
@@ -716,7 +716,7 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
   
   - First, we need to entering the modul2-ansible directory by typing `cd ~/ansible/modul2-ansible` and create **install-wordpress.yml** file by typing `nano install-wordpress.yml`.  In the **install-wordpress.yml** file, we can type some configurations like this.
   
-    ![wordpress2](/assets/wordpress2.PNG)
+    ![wordpress2](assets/wordpress2.PNG)
   
   - As we can see in the **install-wordpress.yml** configurations, the roles consist of 1 parts, namely **WordPress**.
   
@@ -1360,11 +1360,11 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
   
   - Finally, after we created all configuration script of **WordPress** we can start to run the **Ansible** to make sure all script that we made was run properly with command `ansible-playbook -i hosts install-wordpress.yml -k`.
   
-    ![wp_ansible](/assets/wp_ansible.PNG)
+    ![wp_ansible](assets/wp_ansible.PNG)
   
   - After the **WordPress** run properly, we can check in the browser by typing our domain which is `vm.local` to check **WordPress** was installed properly.
   
-    ![Wordpress](/assets/Wordpress.PNG)
+    ![Wordpress](assets/Wordpress.PNG)
 
 ## Created By Team 12 [IT - 02 - 02]
 - Muhammad Akbar Ramadhan [1202190019]
