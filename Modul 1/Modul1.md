@@ -15,7 +15,7 @@ Create an basic virtualization as a company profile website based on domain stra
 
 <img src="Assets/skema awal.png" alt="skema awal"/>
 
-After meeting with programmer team and discussing about initial scheme that we made, we got the info from programmer team that the ubuntu 16.04 xenial has a new change that no longer has standard support since April 2021. After that, we discussed with programmer team about a new scheme that will be made and produce a decision that the new scheme that will be created is
+After meeting with programmer team and discussing about initial scheme that we made, we got the info from programmer team that the ubuntu 16.04 xenial has a new change that no longer has standard support since April 2021. After that, we discussed with programmer team about a new scheme that will be made and produce a decision that the new scheme that will be created is.
 
 ###### New scheme
 
