@@ -1,0 +1,12 @@
+---
+- name: restart nginx
+  become: yes
+  become_user: root
+  become_method: su
+  action: service name=nginx state=restarted
+ 
+- name: restart php
+  become: yes
+  become_user: root
+  become_method: su
+  action: service name=php5.6-fpm state=restarted
