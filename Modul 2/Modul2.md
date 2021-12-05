@@ -27,7 +27,7 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
 
   - We can also set auto start on this LXC, using the same method as the module I described before. If you want to backup this LXC, first you need to stop your LXC by typing `sudo lxc-stop -n ubuntu_landing` and then type this command `lxc-copy -n ubuntu_landing -N ubuntu_landing_backup -sKD` to backup the LXC.
 
-  - After we do all this LXC configurations, we can start making scripts **Ansible ** for the **Laravel** installation.
+  - After we do all this LXC configurations, we can start making scripts **Ansible** for the **Laravel** installation.
 
   - First, we need to entering the modul2-ansible directory by typing `cd ~/ansible/modul2-ansible` and create **install-laravel.yml** file by typing `nano install-laravel.yml`.  In the **install-laravel.yml** file, we can type some configurations like this.
 
