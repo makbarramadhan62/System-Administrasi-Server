@@ -98,15 +98,15 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
       action: service name=nginx state=restarted
     ```
 
-  - Once we are done with the **php** role, we can move on to creating the **lv** role. We need to create **lv** role which contains the **Laravel installation** and some configuration by typing `mkdir -p role/lv`. In the **lv** directory, we need to create 3 directories, namely **tasks**, **handlers** and **templates** by typing the command as below.
+  - Once we are done with the **php** role, we can move on to creating the **laravel** role. We need to create **laravel** role which contains the **Laravel installation** and some configuration by typing `mkdir -p role/laravel`. In the **laravel** directory, we need to create 3 directories, namely **tasks**, **handlers** and **templates** by typing the command as below.
 
     ```
-    mkdir -p roles/lv/tasks
-    mkdir -p roles/lv/handlers
-    mkdir -p roles/lv/templates
+    mkdir -p roles/laravel/tasks
+    mkdir -p roles/laravel/handlers
+    mkdir -p roles/laravel/templates
     ```
 
-  - First, go to the **tasks** directory by typing `cd roles/lv/tasks` and make **main.yml** file by typing `nano main.yml`. In the **main.yml** file, we can type a script like the one below to **install Laravel** and make some configurations for it run properly.
+  - First, go to the **tasks** directory by typing `cd roles/laravel/tasks` and make **main.yml** file by typing `nano main.yml`. In the **main.yml** file, we can type a script like the one below to **install Laravel** and make some configurations for it run properly.
 
     ```
     ---
