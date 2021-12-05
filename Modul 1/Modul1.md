@@ -13,7 +13,7 @@ Create an basic virtualization as a company profile website based on domain stra
 
 ###### Initial scheme
 
-![skema awal](Assets/skema awal.png)
+![skema awal](Assets/skema awal.PNG)
 
 
 
@@ -21,7 +21,7 @@ After meeting with programmer team and discussing about initial scheme that we m
 
 ###### New scheme
 
-![Skema Akhir](Assets/Skema Akhir.png)
+![Skema Akhir](Assets/Skema Akhir.PNG)
 
 | Server Name                    | IP         | Domain                 |
 | ------------------------------ | ---------- | ---------------------- |
