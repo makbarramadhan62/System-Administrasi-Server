@@ -33,7 +33,7 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
 
     ![Laravel2](assets/Laravel2.PNG)
 
-  - As we can see in the **install-laravel.yml** configurations, the roles consist of 2 parts, namely **php** and **lv**  .
+  - As we can see in the **install-laravel.yml** configurations, the roles consist of 2 parts, namely **php** and **laravel**  .
 
   - First, we will create **php** role which contains the **php installation** and some **php configuration** by typing `mkdir -p role/php`. In the **php** directory, we need to create 2 directories, namely **tasks** and **handlers** by typing the command as below.
 
