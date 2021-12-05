@@ -13,7 +13,7 @@ Create an basic virtualization as a company profile website based on domain stra
 
 ###### Initial scheme
 
-![skema awal](Assets/skema awal.png)
+![skema awal](Assets\skema awal.png)
 
 
 
