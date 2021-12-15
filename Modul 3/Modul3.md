@@ -4,9 +4,9 @@
 
 Create SubDomain dev.vm.local with some rules:
 
-- Ansible
-- Same lxc like vm.local 
-- The folder must be in /var/www/html/dev/{name_app}
+- Ansible.
+- Same lxc like vm.local .
+- The folder must be in /var/www/html/dev/{name_app}.
 
 ## Problem Solving
 
@@ -130,7 +130,7 @@ Create SubDomain dev.vm.local with some rules:
   ; BIND data file for local loopback interface
   ;
   $TTL    604800
-  @       IN      SOA     localhost. root.localhost. (
+  @       IN      SOA     vm.local. root.vm.local. (
                                 2         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
@@ -151,7 +151,7 @@ Create SubDomain dev.vm.local with some rules:
   ; BIND data file for local loopback interface
   ;
   $TTL    604800
-  @       IN      SOA     localhost. root.localhost. (
+  @       IN      SOA     vm.local. root.vm.local. (
                                 2         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
@@ -243,7 +243,7 @@ Create SubDomain dev.vm.local with some rules:
   ; BIND data file for local loopback interface
   ;
   $TTL    604800
-  @       IN      SOA     localhost. root.localhost. (
+  @       IN      SOA     vm.local. root.vm.local. (
                                 2         ; Serial
                            604800         ; Refresh
                             86400         ; Retry
