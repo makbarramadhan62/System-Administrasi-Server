@@ -1,0 +1,9 @@
+---
+- hosts: ubuntu_landing
+  vars:
+    username: 'admin'
+    password: 'admin'
+    domain: 'lxc_landing.dev'
+  roles:
+    - php
+    - laravel

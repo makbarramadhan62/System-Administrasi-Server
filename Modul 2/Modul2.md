@@ -27,13 +27,13 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
 
   - We can also set auto start on this LXC, using the same method as the module I described before. If you want to backup this LXC, first you need to stop your LXC by typing `sudo lxc-stop -n ubuntu_landing` and then type this command `lxc-copy -n ubuntu_landing -N ubuntu_landing_backup -sKD` to backup the LXC.
 
-  - After we do all this LXC configurations, we can start making scripts **Ansible ** for the **Laravel** installation.
+  - After we do all this LXC configurations, we can start making scripts **Ansible** for the **Laravel** installation.
 
   - First, we need to entering the modul2-ansible directory by typing `cd ~/ansible/modul2-ansible` and create **install-laravel.yml** file by typing `nano install-laravel.yml`.  In the **install-laravel.yml** file, we can type some configurations like this.
 
     ![Laravel2](assets/Laravel2.PNG)
 
-  - As we can see in the **install-laravel.yml** configurations, the roles consist of 2 parts, namely **php** and **lv**  .
+  - As we can see in the **install-laravel.yml** configurations, the roles consist of 2 parts, namely **php** and **laravel**  .
 
   - First, we will create **php** role which contains the **php installation** and some **php configuration** by typing `mkdir -p role/php`. In the **php** directory, we need to create 2 directories, namely **tasks** and **handlers** by typing the command as below.
 
@@ -98,15 +98,15 @@ After created CodeIgniter framework with php5.6 and database server in MariaDB w
       action: service name=nginx state=restarted
     ```
 
-  - Once we are done with the **php** role, we can move on to creating the **lv** role. We need to create **lv** role which contains the **Laravel installation** and some configuration by typing `mkdir -p role/lv`. In the **lv** directory, we need to create 3 directories, namely **tasks**, **handlers** and **templates** by typing the command as below.
+  - Once we are done with the **php** role, we can move on to creating the **laravel** role. We need to create **laravel** role which contains the **Laravel installation** and some configuration by typing `mkdir -p role/laravel`. In the **laravel** directory, we need to create 3 directories, namely **tasks**, **handlers** and **templates** by typing the command as below.
 
     ```
-    mkdir -p roles/lv/tasks
-    mkdir -p roles/lv/handlers
-    mkdir -p roles/lv/templates
+    mkdir -p roles/laravel/tasks
+    mkdir -p roles/laravel/handlers
+    mkdir -p roles/laravel/templates
     ```
 
-  - First, go to the **tasks** directory by typing `cd roles/lv/tasks` and make **main.yml** file by typing `nano main.yml`. In the **main.yml** file, we can type a script like the one below to **install Laravel** and make some configurations for it run properly.
+  - First, go to the **tasks** directory by typing `cd roles/laravel/tasks` and make **main.yml** file by typing `nano main.yml`. In the **main.yml** file, we can type a script like the one below to **install Laravel** and make some configurations for it run properly.
 
     ```
     ---
