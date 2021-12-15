@@ -12,7 +12,7 @@ Create SubDomain dev.vm.local with some rules:
 
 - First we need to add some syntax ansible in php roles on tasks directory `cd ~/ansible/modul2-ansible/roles/php/tasks`.
 
--  Than, we can type command `nano main.yml` and add syntax as below.
+- Than, we can type command `nano main.yml` and add syntax as below.
 
   ```
   ---
