@@ -276,7 +276,7 @@ Create SubDomain dev.vm.local with some rules:
   ff02::2 ip6-allrouters
   ```
 
-- Don't forget to add subdomain **dev.vm.local** in nginx configuration on main **vm.local**. we can type it like syntax as below.
+- Don't forget to add subdomain **dev.vm.local** in nginx configuration on main **vm.local** by typing `cd /etc/nginx/sites-available; nano vm.local`. we can type it like syntax as below.
 
   ```
   server {
@@ -309,6 +309,8 @@ Create SubDomain dev.vm.local with some rules:
           }
   }
   ```
+
+- After that, we need to go to sites-enable to restart nginx, so we need to type command `cd /etc/nginx/sites-enabled; sudo nginx -t; sudo nginx -s reload`.
 
 - Then, we can try it in our lovely browser and hopefully its works. I think :)
 
