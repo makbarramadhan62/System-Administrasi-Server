@@ -310,7 +310,7 @@ Create SubDomain dev.vm.local with some rules:
   }
   ```
 
-- After that, we need to go to sites-enable to restart nginx, so we need to type command `cd /etc/nginx/sites-enabled; sudo nginx -t; sudo nginx -s reload`.
+- After that, we need to go to sites-enabled to restart nginx, so we need to type command `cd /etc/nginx/sites-enabled; sudo nginx -t; sudo nginx -s reload`.
 
 - Then, we can try it in our lovely browser and hopefully its works. I think :)
 
