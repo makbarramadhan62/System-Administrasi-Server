@@ -236,7 +236,7 @@ Create SubDomain dev.vm.local with some rules:
   ansible-playbook -i hosts install-laravel.yml -k
   ```
 
-- Enter into lxc ubuntu_landing by typing `sudo lxc-attach ubuntu_landing` and go to the **landing** directory by type `/var/www/html/dev/landing`. `nano vm`. Add syntax to record CNAME with subdomain dev like syntax as below. Then restart it with command `sudo /etc/init.d/named restart`.
+- Enter into lxc ubuntu_landing by typing `sudo lxc-attach ubuntu_landing` and go to the **landing** directory by type `/var/www/html/dev/landing; nano vm.local`. Add syntax to record CNAME with subdomain dev like syntax as below. Then restart it with command `sudo /etc/init.d/named restart`.
 
   ```
   ;
